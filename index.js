@@ -1,5 +1,3 @@
-
-
 exports.isItFriday = function(today) {
     if (today === "Friday") {
       return "TGIF";
@@ -7,15 +5,3 @@ exports.isItFriday = function(today) {
       return "Nope";
     }
   }
-
-// module.exports = function(today) {
-//   return {
-//     isItFriday: function() {
-//       if (today === "Friday") {
-//         return "TGIF";
-//       } else {
-//         return "Nope";
-//       }
-//       }
-//   };
-// }
